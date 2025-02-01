@@ -141,5 +141,19 @@
     "toProductId": "PROD20001",
     "productAssocTypeEnumId": "VARIANT",
     "fromDate": "2023-09-01"
+  },
+  {
+    "_entity" : "ProductAssoc",
+    "productId": "PROM001",
+    "toProductId": "PROD10001",
+    "productAssocTypeEnumId": "MARKT_PACKAGE",
+    "fromDate": "2023-10-01"
+  },
+  {
+    "_entity" : "ProductAssoc",
+    "productId": "PROM001",
+    "toProductId": "PROD20001",
+    "productAssocTypeEnumId": "MARKT_PACKAGE",
+    "fromDate": "2023-10-01"
   }
 ]

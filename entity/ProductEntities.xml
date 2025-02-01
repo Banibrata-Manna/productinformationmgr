@@ -129,13 +129,14 @@
 
     <entity entity-name="ProductCategory" package="productEntities.product.category">
         <field name="productCategoryId" type="id" is-pk="true"/>
-        <field name="productCategoryTypeEnumId" type="id" is-pk="true"/>
+        <field name="productCategoryTypeEnumId" type="id"/>
         <field name="categoryName" type="text-short"/>
         <relationship type="one" title="ProductCategoryType" related="Enumeration">
             <key-map field-name="productCategoryTypeEnumId"/>
         </relationship>
         <seed-data>
             <moqui.basic.EnumerationType enumTypeId="ProductCategoryType" description="Product Category Type"/>
+            <moqui.basic.Enumeration enumTypeId="ProductCategoryType" enumId="BROWSE_ROOT" description="Browse Root"/>
             <moqui.basic.Enumeration enumTypeId="ProductCategoryType" enumId="CATALOG_CATEGORY" description="Catalog Category"/>
         </seed-data>
     </entity>

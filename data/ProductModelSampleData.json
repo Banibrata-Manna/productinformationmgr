@@ -215,5 +215,59 @@
     "productFeatureId": "PFC10001",
     "fromDate": "2023-09-01",
     "applTypeEnumId": "STANDARD_FEATURE"
+  },
+  {
+    "_entity" : "ProductCategory",
+    "productCategoryId": "PC10000",
+    "productCategoryTypeEnumId": "CATALOG_CATEGORY",
+    "categoryName": "Smart Phones"
+  },
+  {
+    "_entity" : "ProductCategory",
+    "productCategoryId": "PC10001",
+    "productCategoryTypeEnumId": "CATALOG_CATEGORY",
+    "categoryName": "Laptops"
+  },
+  {
+    "_entity" : "ProductCategory",
+    "productCategoryId": "PC10002",
+    "productCategoryTypeEnumId": "CATALOG_CATEGORY",
+    "categoryName": "Laptops Smartphones Promotional"
+  },
+  {
+    "_entity" : "ProductCategoryMember",
+    "productId": "PROD10000",
+    "productCategoryId": "PC10000",
+    "fromDate": "2023-01-01"
+  },
+  {
+    "_entity" : "ProductCategoryMember",
+    "productId": "PROD10001",
+    "productCategoryId": "PC10000",
+    "fromDate": "2023-01-01"
+  },
+  {
+    "_entity" : "ProductCategoryMember",
+    "productId": "PROD10002",
+    "productCategoryId": "PC10000",
+    "fromDate": "2023-01-01"
+  },
+  {
+    "_entity" : "ProductCategoryMember",
+    "productId": "PROD20000",
+    "productCategoryId": "PC10001",
+    "fromDate": "2023-01-01"
+  },
+  {
+    "_entity" : "ProductCategoryMember",
+    "productId": "PROD20001",
+    "productCategoryId": "PC10001",
+    "fromDate": "2023-01-01"
+  },
+  {
+    "_entity" : "ProductCategoryMember",
+    "productId": "PROM001",
+    "productCategoryId": "PC10002",
+    "fromDate": "2023-01-01"
   }
 ]

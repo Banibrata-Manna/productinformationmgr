@@ -92,8 +92,9 @@
     </entity>
     
     <entity entity-name="ProductFeature" package="productEntities.product.feature">
-        <field name="productId" type="id" is-pk="true"/>
+        <field name="productFeatureId" type="id" is-pk="true"/>
         <field name="productFeatureTypeEnumId" type="id"/>
+        <field name="description" type="id"/>
         <relationship type="one" title="ProductFeatureType" related="Enumeration">
             <key-map field-name="productFeatureTypeEnumId"/>
         </relationship>

@@ -118,7 +118,6 @@
         </relationship>
         <seed-data>
             <moqui.basic.EnumerationType enumTypeId="ProductFeatureApplType" description="Product Feature Applicability Type"/>
-            <moqui.basic.Enumeration enumTypeId="ProductFeatureApplType" enumId="COLOR" description="Color"/>
             <moqui.basic.Enumeration enumTypeId="ProductFeatureApplType" enumId="STANDARD_FEATURE" description="Standard Feature"/>
             <moqui.basic.Enumeration enumTypeId="ProductFeatureApplType" enumId="REQUIRED_FEATURE" description="Required Feature"/>
             <moqui.basic.Enumeration enumTypeId="ProductFeatureApplType" enumId="OPTIONAL_FEATURE" description="Optional Feature"/>

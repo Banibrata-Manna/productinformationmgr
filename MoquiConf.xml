@@ -5,7 +5,6 @@
         <screen location="component://webroot/screen/webroot/apps.xml">
             <subscreens-item name="product" menu-title="Product" menu-index="99"
                              location="component://productinformationmgr/screen/ProductManagerScreen.xml"/>
-
         </screen>
     </screen-facade>
 </moqui-conf>

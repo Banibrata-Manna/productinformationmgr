@@ -38,12 +38,11 @@
         <default-response url="."/>
     </transition>
 
-    <transition name="findProductById">
+    <transition name="findProduct">
         <actions>
-            <entity-find-one entity-name="productEntities.product.Product" value-field="product">
-            </entity-find-one>
+            <entity-find-one entity-name="productEntities.product.Product" value-field="product"/>
         </actions>
-        <default-response url="."/>
+        <default-response url="../FindProduct.xml" parameter-map="product"/>
     </transition>
 
     <actions>
@@ -85,5 +84,10 @@
         <form-list name="ListProduct" list="listProduct" header-dialog="true" skip-form="true">
             <auto-fields-entity entity-name="productEntities.product.Product"/>
         </form-list>
+        <container-dialog id="findProductDialog" button-text="Find a Product">
+            <form-single name="FindProduct" transition="findProduct">
+                <auto-fields-entity entity-name="productEntities.product.Product" field-type="edit" include="pk"/>
+            </form-single>
+        </container-dialog>
     </widgets>
 </screen>
